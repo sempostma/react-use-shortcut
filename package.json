@@ -1,0 +1,46 @@
+{
+  "name": "react-use-shortcut",
+  "version": "0.1.0",
+  "description": "React keyboard shortcut hook",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sempostma/react-use-shortcut"
+  },
+  "homepage": "https://github.com/sempostma/react-use-shortcut",
+  "bugs": {
+    "email": "react-use-shortcut@esstudio.nl",
+    "url": "https://github.com/sempostma/react-use-shortcut/issues"
+  },
+  "files": [
+    "dist/",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc --watch",
+    "test": "jest",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "lint:fix": "tslint --fix -c tslint.json 'src/**/*.ts'"
+  },
+  "keywords": [
+    "react-use-shortcut",
+    "keyboard",
+    "shortcut",
+    "react",
+    "hook",
+    "hotkey"
+  ],
+  "author": "Sem Postma",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.56",
+    "react": "^17.0.1",
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}
